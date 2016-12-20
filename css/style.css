@@ -49,3 +49,19 @@ border: solid 6px;
 	text-align: right;
 	padding-top: 60px;
 }
+
+
+button.bt-generate {
+
+	font-size: 25px;
+	border: 2px solid;
+	transition: background 2s, color 2s;
+}
+
+button.bt-generate:hover {
+
+	background: black;
+	color: #fff;
+
+
+}

@@ -14,33 +14,52 @@ font-weight: 40px;
 
 }
 
+.head {
+	margin-top: 5px;
+	margin-bottom: 6px;
+}
+
+.logo {
+	margin:1px;
+}
+
 .main {
 
-padding-left: 80px;
-padding-right: 80px;
+padding-left: 50px;
+padding-right: 50px;
 
 
 }
 
 .quote-box {
 
-position: relative;
+
 background: white;
-width: 450px;
+width: 100%;
+height: 100%;
 padding-top: 20px;
 padding: 60px;
-margin: 5% auto;
+margin: 10px;
 display: table;
 border-radius: 6px;
 border: solid 6px;
 
 }
 
+@media (max-width: 400px)  {
+	
+	.quote-box {
+		width:  : 300px;
+	}
+
+}
+
+
 
 #quote-text {
 
 
-	font-size: 40px;
+	font-size: 25px;
 
 }
 
@@ -52,7 +71,7 @@ border: solid 6px;
 
 
 button.bt-generate {
-
+	margin-top: 10px;
 	font-size: 25px;
 	border: 2px solid;
 	transition: background 2s, color 2s;
